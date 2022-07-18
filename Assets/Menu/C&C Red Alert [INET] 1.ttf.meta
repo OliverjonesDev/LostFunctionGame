@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f43696af938f28b4cbd066a7fb3230df
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - C&C Red Alert [INET]
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a96aa01b668174a4d9942b655539cb61, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
