@@ -9,7 +9,7 @@ public class MenuScriptCanvas : MonoBehaviour
     public GameObject mainMenuPrefab;
     public GameObject optionsMenuPrefab;
     public GameObject allMenus;
-    public GameObject self;
+    public GameObject menuParent;
     public string level1;
     public string level2;
     public string level3;
@@ -36,7 +36,6 @@ public class MenuScriptCanvas : MonoBehaviour
 
     private void Start()
     {
-        self = gameObject;
         if (allMenus != null)
         {
             allMenus.SetActive(false);

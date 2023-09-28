@@ -14,7 +14,7 @@ public class Hidden : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         changeColour();
     }
@@ -36,11 +36,11 @@ public class Hidden : MonoBehaviour
             }
             if (opacityInc == true)
             {
-                opacity += .01f;
+                opacity += .005f;
             }
             else
             {
-                opacity -= .01f;
+                opacity -= .005f;
             }
         }
     }
